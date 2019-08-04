@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Properties"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <text
+                jcr:primaryType="cq:Widget"
+                fieldLabel="Text"
+                name="./text"
+                defaultValue=""
+                xtype="textfield"/>
+        <textType
+                jcr:primaryType="cq:Widget"
+                value="paragraph"
+                defaultValue="Paragraph"
+                fieldLabel="Text Type"
+                name="./textType"
+                options="/apps/brand-amp/components/content/ampText/dropdowns/text-options.json"
+                type="select"
+                xtype="selection"/>
+        <textAlign
+                jcr:primaryType="cq:Widget"
+                value="right"
+                defaultValue="Right"
+                fieldLabel="Text Align"
+                name="./textAlign"
+                options="/apps/brand-amp/components/content/ampText/dropdowns/text-align-options.json"
+                type="select"
+                xtype="selection"/>
+    </items>
+</jcr:root>

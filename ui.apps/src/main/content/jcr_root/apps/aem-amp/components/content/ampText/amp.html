@@ -1,0 +1,14 @@
+<div class="amp-text">
+    <sly data-sly-test="${properties.textType == 'paragraph'}">
+        <p class="${properties.textAlign}">${properties.text @ context="html"}</p>
+    </sly>
+    <sly data-sly-test="${properties.textType == 'sheader'}">
+        <h2 class="${properties.textAlign}">${properties.text @ context="html"}</h2>
+    </sly>
+    <sly data-sly-test="${properties.textType == 'pheader'}">
+        <h4 class="${properties.textAlign}">${properties.text @ context="html"}</h4>
+    </sly>
+    <sly data-sly-test="${properties.textType == 'subscript'}">
+        <p class="${properties.textAlign}"><small>${properties.text @ context="html"}</small></p>
+    </sly>
+</div>

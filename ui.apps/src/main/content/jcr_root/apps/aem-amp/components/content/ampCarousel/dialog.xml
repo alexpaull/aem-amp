@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Properties"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <height
+                jcr:primaryType="cq:Widget"
+                fieldLabel="Carousel Height"
+                name="./height"
+                defaultValue="612"
+                xtype="textfield"/>
+        <width
+                jcr:primaryType="cq:Widget"
+                fieldLabel="Carousel Width"
+                name="./width"
+                defaultValue="1440"
+                xtype="textfield"/>
+    </items>
+</jcr:root>

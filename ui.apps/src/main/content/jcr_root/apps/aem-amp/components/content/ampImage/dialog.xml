@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Properties"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <image
+            jcr:primaryType="cq:Widget"
+            fieldLabel="AMP Image"
+            name="./image"
+            defaultValue="/content"
+            rootPath="/content"
+            xtype="pathfield"/>
+        <height
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Image Height"
+            name="./height"
+            defaultValue="612"
+            xtype="textfield"/>
+        <width
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Image Width"
+            name="./width"
+            defaultValue="1440"
+            xtype="textfield"/>
+        <text
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Text"
+            name="./text"
+            defaultValue=""
+            xtype="textfield"/>
+    </items>
+</jcr:root>

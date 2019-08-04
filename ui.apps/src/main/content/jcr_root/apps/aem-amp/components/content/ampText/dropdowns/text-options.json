@@ -1,0 +1,6 @@
+[
+  {text: "Section Header", value: "sheader"},
+  {text: "Paragraph Header", value: "pheader"},
+  {text: "Paragraph", value: "paragraph"},
+  {text: "Subscript", value: "subscript"}
+]

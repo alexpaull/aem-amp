@@ -1,0 +1,5 @@
+[
+  {text: "Right", value: "right"},
+  {text: "Center", value: "center"},
+  {text: "Left", value: "left"}
+]

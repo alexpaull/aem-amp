@@ -1,0 +1,5 @@
+
+<amp-carousel height="${properties.height}" width="${properties.width}" layout="responsive" type="slides">
+    <sly data-sly-resource="${resource.path @ resourceType='wcm/foundation/components/parsys/newpar', appendPath='/*', decorationTagName='div', cssClassName='new section aem-Grid-newComponent'}"
+         data-sly-test="${(wcmmode.edit || wcmmode.preview) && carousel.items.size < 1}"></sly>
+</amp-carousel>
