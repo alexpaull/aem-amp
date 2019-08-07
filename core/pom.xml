@@ -19,11 +19,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.ap.aem</groupId>
-        <artifactId>com.ap.aem.aem-amp</artifactId>
+        <artifactId>aem-amp</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>com.ap.aem.aem-amp.core</artifactId>
+    <artifactId>aem-amp.core</artifactId>
     <packaging>bundle</packaging>
     <name>aem-amp - Core</name>
     <description>Core bundle for aem-amp</description>

@@ -22,7 +22,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.ap.aem</groupId>
-        <artifactId>com.ap.aem.aem-amp</artifactId>
+        <artifactId>aem-amp</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -30,7 +30,7 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>com.ap.aem.aem-amp.ui.apps</artifactId>
+    <artifactId>aem-amp.ui.apps</artifactId>
     <packaging>content-package</packaging>
     <name>aem-amp - UI apps</name>
     <description>UI apps package for aem-amp</description>
