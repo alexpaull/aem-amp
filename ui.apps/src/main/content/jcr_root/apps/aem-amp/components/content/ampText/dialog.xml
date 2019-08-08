@@ -6,14 +6,10 @@
     <items jcr:primaryType="cq:WidgetCollection">
         <text
                 jcr:primaryType="cq:Widget"
-                title="Text"
-                hideLabel="{Boolean}true"
+                fieldLabel="Text"
                 name="./text"
-                xtype="richtext">
-            <rtePlugins jcr:primaryType="nt:unstructured">
-                <!-- Include your plugins here -->
-            </rtePlugins>
-        </text>
+                defaultValue=""
+                xtype="textfield"/>
         <textType
                 jcr:primaryType="cq:Widget"
                 value="paragraph"

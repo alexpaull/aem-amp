@@ -2,7 +2,7 @@
     <h2>AMP Image</h2>
     <div>
         <label>Image Path</label>
-        ${properties.image}
+        ${properties.fileReference}
     </div>
     <div>
         <label>Width</label>
@@ -13,11 +13,11 @@
         ${properties.height}
     </div>
     <div>
-        <label>Text</label>
-        ${properties.text}
+        <label>Alt</label>
+        ${properties.alt}
     </div>
     <div>
         <label>Linked Image</label>
-        <img src="${properties.image}" width="100" height="100" alt="${properties.text}" />
+        <img src="${properties.fileReference}" width="100" height="100" alt="${properties.alt}" />
     </div>
 </div>
