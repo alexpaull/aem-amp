@@ -3,7 +3,7 @@
 
 This is a project created for integration with Google AMP. It shows the basics of taking the Google AMP template and components and recreating them as AEM components. This project was created for the purpose of presenting to Detroit Adobe Experience MeetUp group. Code is not production tested or ready, use at your own discretion.
 
-####Project overview:
+#### Project overview:
 Created with Maven Archetype 19
 3 Google Amp Components (ampCarousel, ampImage, ampText)
 3 WCM Core Components extended with Google AMP (carousel, image, text)
