@@ -1,4 +1,5 @@
 # AEM Integration with Google AMP
+### Detroit Adobe Experience Meetup
 
 This is a project created for integration with Google AMP. It shows the basics of taking the Google AMP template and components and recreating them as AEM components. This project was created for the purpose of presenting to Detroit Adobe Experience MeetUp group. Code is not production tested or ready, use at your own discretion.
 
