@@ -1,6 +1,6 @@
-# Sample AEM project template
+# AEM Integration with Google AMP
 
-This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
+This is a project created for integration with Google AMP. It shows the basics of taking the Google AMP template and components and recreating them as AEM components. This project was created for the purpose of presenting to Detroit Adobe Experience MeetUp group. Code is not production tested or ready, use at your own discretion.
 
 ## Modules
 
