@@ -16,5 +16,23 @@
                 name="./width"
                 defaultValue="1440"
                 xtype="textfield"/>
+        <layout
+                jcr:primaryType="cq:Widget"
+                value="responsive"
+                defaultValue="Responsive"
+                fieldLabel="Layout"
+                name="./layout"
+                options="/apps/aem-amp/components/content/ampCarousel/dropdowns/layout-options.json"
+                type="select"
+                xtype="selection"/>
+        <type
+                jcr:primaryType="cq:Widget"
+                value="slides"
+                defaultValue="Slides"
+                fieldLabel="Type"
+                name="./type"
+                options="/apps/aem-amp/components/content/ampCarousel/dropdowns/type-options.json"
+                type="select"
+                xtype="selection"/>
     </items>
 </jcr:root>
